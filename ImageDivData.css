@@ -1,0 +1,194 @@
+
+
+/*div data*/
+
+.blackxs /*basically black div but for titles*/
+{
+display: block;
+max-width: 80%;
+background-color: #000000;
+margin: 100px 10% 0 10%;
+}
+
+.black
+{
+	margin:0 10% 0 10%;
+	max-width: 80%;
+	height: 10%;
+	background-color: #000000;
+	color: #ffffff;
+	font-size:150%;
+	display:block;
+	padding: 25px 50px 50px 50px;
+	text-align: left;
+}
+
+.redxs /*basically red div but for titles*/
+{
+display: block;
+max-width: 80%;
+background-color: #aa0000;
+margin: 100px 10% 0 10%;
+}
+
+.red
+{
+	margin:0 10% 0 10%;
+	max-width: 80%;
+	height: 10%;
+	background-color: #aa0000;
+	color: #ffffff;
+	font-size:150%;
+	display:block;
+	padding: 25px 50px 50px 50px;
+	text-align: left;
+}
+
+#IndexOGDiv /*alteration to red div class so that OG image fits below text*/
+{
+	height: 20%;
+}
+
+.redspace /*specific variation of red for the first headings in index page*/
+{
+	margin: 50px 10% 50px 10%;
+	padding: 50px 0 50px 0;
+	max-width: 80%;
+	height: 10%;
+	background-color: #aa0000;
+	color: #ffffff;
+	font-size:150%;
+	display:block;
+	text-align: left;
+}
+
+#tableofcontents /*specific variation of red for the table of contents*/
+{
+margin: 50px 10% 50px 10%;
+padding: 50px 0 50px 0;
+text-align: center;
+}
+
+/*div image formatting data*/
+/*basically formatting of divs instead of images which I did to make my life easier*/
+
+#logo
+{
+width: 60%;
+margin: 0 20% 0 20%;
+}
+
+#WeTheNorth 
+{
+width: 80%;
+margin: 0 10% 0 10%;
+}
+
+/*image data*/
+
+#IndexVince
+{
+	width: 40%;
+	float:right;
+	padding-left: 15px;
+	object-fit:contain;
+}
+
+#IndexRaps
+{
+	width: 40%;
+	float:left;
+	padding: 0 15px 20px 0;
+	object-fit:contain;
+}
+
+
+
+#IndexOG
+{
+	width:60%;
+	float: bottom;
+	padding-top: 15px;
+	object-fit:contain;
+}
+
+#PastHusky
+{
+	width: 40%;
+	float:right;
+	padding: 30px 15px 15px 15px;
+	object-fit:contain;
+}
+
+#PastDamon
+{
+	width:60%;
+	float: left;
+	object-fit:contain;
+	padding: 15px;
+}
+
+#PastVinceDraft
+{
+	width: 40%;
+	float:right;
+	padding: 0px 15px 15px 15px;
+	object-fit:contain;
+}
+
+#PastDerozan
+{
+	width:60%;
+	float: left;
+	object-fit:contain;
+	padding: 30px 10px 0 0;
+}
+
+#PresentDrake
+{
+	width: 60%;
+	float:right;
+	padding: 30px 15px 15px 15px;
+	object-fit:contain;
+}
+
+#PresentSiakam
+{
+	width:60%;
+	float: left;
+	object-fit:contain;
+	padding: 30px 15px 0 0;
+}
+
+#PresentKawhi
+{
+	width:60%;
+	float: left;
+	object-fit:contain;
+	padding: 30px 15px 15px 15px;
+}
+
+#PresentNick
+{
+	width:60%;
+	height:2%;
+	float: left;
+	object-fit:contain;
+	padding: 15px 15px 10px 0;
+}
+
+/*other*/
+#video
+{
+	width:80%;
+	height:400px;
+	margin:2% 10% 2% 10%;
+	object-fit:contain;
+}
+
+.validation
+{
+	width:10%;
+	height:5%;
+	object-fit:contain;
+}

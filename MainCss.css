@@ -1,0 +1,143 @@
+
+body
+{
+	background-image: url("wallpaper.png");
+	background-repeat: repeat;
+	text-align: center;
+	color: #000000;
+	margin: 100px 10% 50px 10%;
+}
+
+p
+{
+text-indent: 5%;
+}
+
+h1
+{
+	text-align : center;
+	font-size: 80pt;
+	color: #000000;
+	margin-bottom: 0px;
+	margin-top:0px;
+	padding-bottom: 50px;
+}
+
+h2
+{
+	margin-top:0px;
+	text-align : center;
+	font-size: 25pt;
+	color: #ffffff;
+	margin-bottom:0px;
+}
+
+img
+{
+	width: 100%;
+	height: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.heading:link /*also includes nav bar*/
+{
+	padding-top:0px;
+	text-align : center;
+	font-size: 25pt;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.heading:hover /*also includes nav bar*/
+{
+	padding-top:0px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.heading:visited /*also includes nav bar*/
+{
+	padding-top:0px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.heading:visited:hover /*also includes nav bar*/
+{
+	padding-top:0px;
+	color:#000000;
+	text-decoration: none;
+}
+
+table
+{
+width:100%;
+display:table;
+border-color:#000000;
+border-spacing:2px;
+border-collapse: collapse;
+
+}
+
+tr,td,th
+{
+padding:15px;
+border: 5px solid black;
+}
+
+th
+{
+font-size:25pt;
+}
+
+.Other-LI /*class was used to differentiate from other lists*/
+{
+	list-style-type: none;
+	display: inline;
+	padding: 0 10px 0 10px;
+}
+
+.Title
+{
+margin-bottom:25px;
+}
+
+#small /*specific formatting for a link*/
+{
+	color: #ffffff;
+	font-size:100%;
+	text-decoration: underline;
+}
+
+#small:hover
+{
+	color:#000000;
+	text-decoration: underline;
+}
+
+#small:visited:hover
+{
+	color:#000000;
+	text-decoration: underline;
+}
+
+.blue /*specific formatting for a link*/
+{
+	color: #0000ff;
+	font-size:100%;
+	text-decoration: none;
+}
+
+.blue:hover
+{
+	color:#0000ff;
+	text-decoration: none;
+}
+
+.blue:visited:hover
+{
+	color:#0000ff;
+	text-decoration: none;
+}

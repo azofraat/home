@@ -1,0 +1,61 @@
+.Nav-UL /*class was used to differentiate from other lists*/
+{
+	list-style-type: none;
+	margin: 0 -10% 0 -10%;
+	padding: 0;
+	overflow: hidden;
+	background-color: #aa0000;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.Nav-LI	/*class was used to differentiate from other lists*/
+{
+	float: left;
+	margin: 0;
+	border-right: 1px solid #bbb;
+	font-size: 20pt;
+}
+
+.Nav-LI a /*class was used to differentiate from other lists*/
+{
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	margin: 0;
+	font-size: 20pt;
+}
+
+.Nav-LI a:visited	/*class was used to differentiate from other lists*/
+{
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	margin: 0;
+	font-size: 20pt;
+}
+
+.Nav-LI a:hover	/*class was used to differentiate from other lists*/
+{
+	background-color: #ffffff;
+	margin: 0;
+	color:#000000;
+}
+
+.Nav-LI a:hover:visited	/*class was used to differentiate from other lists*/
+{
+	background-color: #ffffff;
+	margin: 0;
+	color:#000000;
+}
+
+.active
+{
+background-color: #000000;
+}
+
